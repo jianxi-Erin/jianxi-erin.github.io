@@ -1,0 +1,419 @@
+/* 全局声明 */
+*{
+margin: 0px;
+padding: 0px;
+font-family: 微软雅黑;
+font-size: 20px;
+text-decoration: none;
+list-style: none;
+text-decoration: none;
+/* background-color: rgba(81, 255, 0, 0.123); */
+}
+
+
+/* 标签声明 */
+
+body {
+    background-image: url("../img/CosmicRomancel.gif");
+    text-align: center;
+}
+dl{
+    margin: 0px auto;
+    padding-left: 50px;
+    height: 500px;
+    float: left;
+    text-align: left;
+    width: 300px;
+}
+dt{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    line-height: 25px;
+    height: 25px;
+}
+dd a{
+    color: rgb(165, 165, 165);
+    font-size: 18px;
+    line-height: 20px;
+    height: 20px;
+    transition:  0.1s  ease-in-out;
+}
+/* id声明 */
+
+#father {
+    /* 总框架 */
+    /* width: 100%; */
+    height: 100%;
+    text-align:center;
+    
+}
+
+#boxBar {
+    /* 导航栏 */
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    background:linear-gradient(0deg,rgba(255, 255, 255,0.00000000000000000000000001),rgba(255, 255, 255, 0.05));
+    position:absolute;/*绝对定位*/
+    top:0px;
+    transition:  0.3s  ease-in-out;/*动画过渡*/
+}
+
+#boxBarValue{
+    /* 导航栏内部框架 */
+    width: 1400px;
+    height: 100px;
+    margin: 0px auto;
+}
+#listBoxLeft {
+    /* 导航栏列表 */
+    width: 700px;
+    line-height: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+
+#listBoxRight {
+    /* 导航栏列表 */
+    width: 700px;
+    height: 100px;
+    float: right;
+    text-align: center;
+}
+/* 搜索框 */
+#searchBox{
+    width: 0px;
+    height: 30px;
+    border: 0;
+    font-size: 15px;
+    border-radius:5px ;
+    transition:  0.5s  ease-in-out
+}
+/*搜索图标*/
+#search{
+    background: url("../img/searchWhite.svg") no-repeat center;
+    background-size: 20px;
+    transition:  0.3s  ease-in-out;
+    
+}
+#boxMain {
+    /* 动态画报 */
+    width: 1450px;
+    height: 800px;
+    margin: 0px auto;
+    margin-top: 100px; 
+    text-align: center;/*设置图片居中*/
+    padding: 1px;
+}
+#mainPic{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+/* 上一页 */
+#leftPrevious{
+    margin-top: 325px;
+    border-radius: 10px 0px 0px 10px;
+    width: 25px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+    line-height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.05);
+    transition:  0.3s  ease-in-out
+}
+/* 下一页 */
+#rightNext{
+    margin-top: 325px;
+    border-radius: 0px 10px 10px 0px;
+    width: 25px;
+    height: 100px;
+    cursor: pointer;
+    float: right;
+    line-height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.05);
+    transition:  0.3s  ease-in-out
+}
+#box0{
+    /* 内容0 */
+    width: 1450px;
+    height: 1650px;
+    margin:0px auto;
+    padding: 1px;
+    background: rgb(255, 255, 255);
+}
+#box0LeftTop{
+    width: 705px;
+    height: 805px;
+    margin:10px;
+    float: left;
+    background: url("../img/box0LeftTop.jpg") no-repeat center;
+    background-size:705px 805px ;
+}
+#box0Leftbottom{
+    width: 705px;
+    height: 805px;
+    background: url("../img/box0LeftBottom.jpg") no-repeat center;
+    background-size:705px 805px ;
+    margin:10px;
+    float: left;
+}
+#box0RightTop{
+    width: 705px;
+    height: 805px;
+    float: right;
+    background: url("../img/box0RightTop.jpg") no-repeat center;
+    background-size:705px 805px ;
+    margin:  10px;
+    background-color: rgba(255, 255, 255);
+}
+#box0Rightbottom{
+    width: 705px;
+    height: 805px;
+    background: url("../img/box0Rightbottom.jpg") no-repeat center;
+    background-size:705px 805px ;
+    float: right;
+    margin:  10px;
+    background-color: rgba(255, 255, 255);
+}
+
+
+#box1{
+    margin: 0 auto;
+    padding: 1px;
+    width: 1450px;
+    height: 450px;
+    background: rgb(255, 255, 255);
+}
+#box1Son{
+    margin: 10px;
+    background: url("../img/box1.jpg") no-repeat center;
+    background-size:1430px 430px ;
+    width: 1430px;
+    height: 430px;
+}
+#box2{
+    margin: 0 auto;
+    padding: 1px;
+    width: 1450px;
+    height: 600px;
+    background: rgb(255, 255, 255);
+}
+#box2Top{
+    margin:10px 100px;
+    width: 1250px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 15px;
+    border-bottom:1px solid rgb(170, 170, 170) ;
+    letter-spacing: 60px;
+    
+}
+#box2bottomLeft{
+    width: 463.333333333px;
+    height: 480px;
+    background: url("../img/box2bottomLeft.jpg") no-repeat center;
+    background-size:463px 480px ;
+    margin: 10px;
+    float: left;
+}
+#box2bottomCenter{
+    width: 463.333333333px;
+    height: 480px;
+    background: url("../img/box2bottomCenter.jpg") no-repeat center;
+    background-size:463px 480px ;
+    margin: 10px;
+    float: left;
+}
+#box2bottomRight{
+    width: 463.333333333px;
+    height: 480px;
+    background: url("../img/box2bottomRight.jpg") no-repeat center;
+    background-size:463px 480px ;
+    margin: 10px;
+    float: left;
+}
+
+#box3{
+    margin: 0 auto;
+    padding: 1px;
+    width: 1450px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+}
+#box3bottomLeft{
+    width: 463.333333333px;
+    height: 480px;
+    background: url("../img/box3bottomLeft.jpg") no-repeat center;
+    margin: 10px;
+    float: left;
+}
+#box3bottomCenter{
+    width: 463.333333333px;
+    height: 480px;
+    background: url("../img/box3bottomCenter.jpg") no-repeat center;
+    margin: 10px;
+    float: left;
+}
+#box3bottomRight{
+    width: 463.333333333px;
+    height: 480px;
+    background: url("../img/box3bottomRight.jpg") no-repeat center;
+    margin: 10px;
+    float: left;
+}
+#box4{
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background: rgb(36, 36, 36);
+}
+#box4Son{
+    margin: 0px auto;
+    padding: 0px 25px;
+    width: 1400px;
+    height: 500px;
+}
+#box4SonBottom{
+    vertical-align: auto;
+    width: 1400px;
+    height: 100px;
+    padding: 0px 25px;
+    margin:0px auto;
+    color: rgb(165, 165, 165);
+}
+#box4SonBottom span{
+    display: block;
+    height: 1px;
+    margin: 5px auto;
+    font-size: 10px;
+    width: 1400px;
+    border-top: 1px solid rgb(165, 165, 165);;
+}
+/* 类声明 */
+
+.logo{
+    /* 导航栏logo */
+    width: 200px;
+    line-height:100px;
+    height: 100px;
+    background: url("../img/logoWhite.png") no-repeat center;
+    background-size: 150px;
+    text-align: center;
+    float: left;
+    transition:  0.3s  ease-in-out
+    
+}
+.listItem{
+    /* 导航栏列表左 */
+    width: 150px;
+    line-height:100px;;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+.listItemRight{
+    /* 导航栏列表右 */
+    width: 50px;
+    height: 100px;
+    line-height: 100px;
+    float: right;
+}
+.list{
+    height: 100px;
+    line-height: 100px;
+    float: right;
+    
+}
+.user{
+    /*用户登录图标*/
+    background: url("../img/userWhite.svg") no-repeat center;
+    background-size: 20px;
+    transition:  0.3s  ease-in-out;
+}
+.sonBox{
+    /*子列表框*/
+    height: 0px;
+    list-style: none;
+}
+
+.sonItem{
+    /* 子列表项格式 */
+    height: 0px;
+    line-height: 65px;
+    transition: .2s;
+    opacity: 0;/*设置不透明度*/
+    transform: translateY(-65px);
+
+}
+
+
+
+
+
+/*复合声明*/
+
+.listItem a{
+    /* 列表项目文字格式 */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    transition:  0.3s  ease-in-out;
+}
+
+
+/* 事件声明 */
+
+#boxBar:hover {
+    /*导航栏背景过渡*/
+    background-color: rgba(255, 255, 255, 0.75);
+}
+#boxBar:hover .listItem a{
+    /*导航栏字体过渡*/
+    color: rgb(0, 0, 0);
+}
+
+.listItem:hover  {
+    /* 动态列表项目背景突出左 */
+    background-color: rgb(255, 255, 255);
+
+}
+.listItem:hover a{
+    /* 动态列表项目突出:字体增大 */
+    font-size: 25px;
+}
+.listItem:hover  .sonItem{
+    /* 显示子列表 */
+    height: 65px;
+    opacity: 1;
+    transform: translateY(0);
+    background-color:rgb(255, 255, 255);
+}
+.sonBox li:hover{
+ /* 导航栏字体自动变黑 */
+    border: 1px solid rgb(0, 0, 0);
+}
+#boxBar:hover .logo{
+    /* 导航栏logo自动变黑 */
+    background: url("../img/logoBlack.png") no-repeat center;
+    background-size: 150px;
+}
+#boxBar:hover .user{
+    /* 导航栏user自动变黑 */
+    background: url("../img/userBlack.svg") no-repeat center;
+    background-size: 20px;
+}
+#boxBar:hover #search{
+    /* 导航栏search自动变黑 */
+    background: url("../img/searchBlack.svg") no-repeat center;
+    background-size: 20px;
+}
+dd a:hover{
+    color: rgb(255, 255, 255);
+}
+#leftPrevious:hover,#rightNext:hover{
+    background: rgb(170, 170, 170);
+}

@@ -1,0 +1,228 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+font-family: "微软雅黑";
+}
+.father{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+}
+.nav{
+    width:1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    float: left;
+    background: url("../img/Dlogo.png")  no-repeat center;
+}
+.navBox{
+    width: 345px;
+    height: 100px;
+    float: left;
+}
+.navBox li{
+    width:115px;
+    height: 50px;
+    padding: 25px 0px;
+    float: left;
+    text-align: center;
+}
+.navBox li a{
+    display: inline-block;
+    width: 80px;
+    line-height: 50px;
+    font-weight: 500px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+}
+.search{
+    width:425px;
+    height: 40px;
+    float: left;
+    padding: 30px 5px;
+}
+.searchText{
+    width: 365px;
+    height: 40px;
+    border: 2px solid rgb(0, 164, 255);
+}
+.searchButton{
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(0, 164, 255);
+    background:  url("../img/D-search.png") no-repeat center;
+}
+.user{
+    width:120px;
+    height: 50px;
+    padding: 25px 0px;
+    float: left;
+}
+.userIcon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    background: url("../img/D_icon.jpg") no-repeat center;
+    background-size:50px ;
+
+}
+.userName{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height:50px;
+    width:70px;
+}
+.boxMain{
+    width: 1200px;
+    height: 420px;
+    background: url("../img/D_boxMain.png") no-repeat center;
+    background-size:1200px 420px ;
+    box-shadow: 5px 5px 10px 3px rgb(235, 235, 235);
+}
+.boxMainLeft{
+    float: left;
+    width:170px;
+    height: 420px;
+    background: rgb(19,1,75,0.1);
+    padding-left: 20px;
+}
+.leftListBox{
+    width: 160px;
+    height: 420px;
+}
+.leftListBox li{
+    line-height: 40px;
+}
+.leftListBox li a{
+    color:rgb(255, 255, 255);
+}
+.leftListBox li span{
+    padding-right: 15px;
+    float: right;
+}
+.boxRight{
+    margin-top: 50px;
+    width:230px;
+    height: 300px;
+    float: right;
+    background: rgb(255, 255, 255);
+}
+.BoxRightTitle{
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    background: rgb(155, 206, 234);
+}
+.BoxRightTitle a{
+    font-weight: 800;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+.lesson{
+    height: 180px;
+    width: 200px;
+    padding: 0px 15px;
+}
+.lesson li{
+    padding: 5px;
+    height: 50px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+.lesson li a{
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+}
+.lesson li a span{
+    font-size: 15px;
+    color: rgb(148, 148, 148);
+}
+.lessonAll{
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid rgb(0, 164, 255);
+    line-height: 50px;
+}
+.box0{
+    margin-top:15px ;
+    width: 1200px;
+    height: 70px;
+    box-shadow: 5px 5px 10px 1px rgb(216, 216, 216);
+
+}
+
+.box0ListBox{
+    width: 900px;
+    float: left;
+    height: 70px;
+}
+.box0ListBox li{
+    padding-top: 15px;
+    height: 55px;
+    width: 128.571428px;
+    float: left;
+}
+.box0ListBox li a{
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 110px;
+    border-right:2px solid rgb(219, 219, 219) ;
+}
+.change{
+    width: 300px;
+    height: 70px;
+    float:right;
+}
+.change a{
+    margin-right: 20px;
+    text-align: right;
+    float: right;
+    line-height: 70px;
+    color: rgb(0, 164, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navBox li a:hover{
+    color: rgb(0, 164, 255) ;
+    border-bottom:2px solid rgb(0, 164, 255) ;
+}
+.leftListBox li a:hover{
+    color: rgb(0, 164, 255);
+}
+.box0ListBox li a:hover{
+    color: rgb(0, 164, 255) ;
+}
